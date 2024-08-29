@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!-- saved from url=(0099)file:///C:/shima/project.html?password+required=&mobilenumber+required=&d.o.b=&d.o.b.x=19&d.o.b.y=2 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title>NEW WEBSITE</title>
+    <style>
+        body {
+            background-image: url(TEM.JPEG);
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        h1, h2, h3 {
+            color: white;
+            text-shadow: 2px 2px 4px black;
+        }
+        h1 {
+            text-align: center;
+            font-size: 3em;
+            margin-top: 20px;
+            text-shadow: darkred;
+        }
+        h2 {
+            text-align: center;
+            font-size: 2em;
+            font-style: italic;
+            text-shadow: 2px 2px 4px blue;
+            margin: 20px 0;
+        }
+        h3 {
+            text-align: center;
+            font-size: 1.5em;
+            font-style: oblique;
+            margin-bottom: 20px;
+        }
+        .form-container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        label {
+            font-size: 1.2em;
+            margin: 10px 0 5px;
+        }
+        input[type="text"],
+        input[type="password"],
+        input[type="number"],
+        input[type="date"],
+        input[type="file"] {
+            width: 100%;
+            max-width: 400px;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        fieldset {
+            border: none;
+            margin: 10px 0;
+            padding: 0;
+        }
+        legend {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+        .gender-label {
+            margin: 0 10px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 1.2em;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>WELCOME TO MY WEBSITE</h1>
+    <h2>LOGIN PAGE</h2>
+    <h3>....FILL THE BELOW DETAILS TO LOGIN....</h3>
+    <div class="form-container">
+        <form>
+            <label for="USERNAME">USERNAME</label>
+            <input type="text" id="USERNAME" name="username" required="">
+
+            <label for="PASSWORD">PASSWORD</label>
+            <input type="password" id="PASSWORD" name="password" required="">
+
+            <label for="confirmpassword">CONFIRMPASSWORD</label>
+            <input type="password" id="password" name="password" required="">
+
+            <label for="MOBILE_NUMBER">MOBILE NUMBER</label>
+            <input type="number" id="MOBILE_NUMBER" name="mobilenumber" required="">
+
+            <label for="DOB">D.O.B</label>
+            <input type="date" id="DOB" name="dob">
+
+            <label for="ID_PROOF">ID Proof</label>
+            <input type="file" id="ID_PROOF" name="idproof">
+
+            <fieldset>
+                <legend>CHOOSE YOUR GENDER:</legend>
+                <label class="gender-label" for="male">Male</label>
+                <input type="radio" name="gender" id="male" value="male">
+                <label class="gender-label" for="female">Female</label>
+                <input type="radio" name="gender" id="female" value="female">
+            </fieldset>
+
+            <button type="submit"><a href="login.html">LOGIN</a></button>
+        </form>
+    </div>
+
+</body></html>
